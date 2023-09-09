@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.purple{
+    position: relative;
+    top:0px;
+    left:0px;
+    width:430px;
+}
+.card-frnt{
+    position: relative;
+    top:-450px;
+    left:-290px;
+    width:400px;
+    height: 220px;
+    z-index: 1;
+}
+.card-bck{
+    position: relative;
+    top:-420px;
+    left:230px;
+    width:400px;
+    height: 220px;
+    z-index: 1;
+}
+.svg{
+    position: relative;
+    top:-600px;
+    left: -667px;
+    /*height: 50px;
+    width: 90px;*/
+    z-index: 1;
+}
+
+.pname{
+    position: relative;
+    top: -860px;
+    left: 750px;
+    font-size:11px;
+    font-family:"Space Grotesk";
+    font-weight: 500;
+    text-transform:uppercase ;
+    letter-spacing: 1.5px;
+}
+#ch-name{
+    position: relative;
+    top:-850px;
+    left:750px;
+    height: 35px;
+    width: 330px;
+    border-radius: 10px;
+    border-color: hsl(270, 3%, 87%);
+    text-indent: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.pcnumber{
+    position: relative;
+    top: -825px;
+    left: 750px;
+    font-size:11px;
+    font-family:"Space Grotesk";
+    font-weight: 500;
+    text-transform:uppercase ;
+    letter-spacing: 1.5px;
+    z-index: 1;
+
+}
+#crd-num{
+    position: relative;
+    top:-815px;
+    left:750px;
+    height: 35px;
+    width: 330px;
+    border-radius: 10px;
+    border-color: hsl(270, 3%, 87%);
+    text-indent: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+.pcnumber2{
+    position: relative;
+    top: -785px;
+    left: 750px;
+    font-size:11px;
+    font-family:"Space Grotesk";
+    font-weight: 500;
+    text-transform:uppercase ;
+    letter-spacing: 1.5px;
+    
+}
+#month{
+    position: relative;
+    top: -775px;
+    left: 750px;
+    height: 35px;
+    width:65px;
+    border-radius: 10px;
+    border-color: hsl(270, 3%, 87%);
+    text-indent: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+#year{
+    position: relative;
+    top: -775px;
+    left: 755px;
+    height: 35px;
+    width:65px;
+    border-radius: 10px;
+    border-color: hsl(270, 3%, 87%);
+    text-indent: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+.cvctxt{
+    position: relative;
+    top: -851px;
+    left: 915px;
+    font-size:11px;
+    font-family:"Space Grotesk";
+    font-weight: 500;
+    text-transform:uppercase ;
+    letter-spacing: 1.5px;
+}
+#cvc{
+    position: relative;
+    top: -842px;
+    left: 915px;
+    height: 35px;
+    width:165px;
+    border-radius: 10px;
+    border-color: hsl(270, 3%, 87%);
+    text-indent: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+#btn{
+    position: relative;
+    top:-810px;
+    left: 750px;
+    height: 46px;
+    width: 330px;
+    background-color: hsl(278, 68%, 11%);
+    border-radius: 7px;
+    border-color: transparent;
+    color:white;
+    font-family:"Space Grotesk";
+    cursor: pointer;
+    z-index: 1;
+}
+#emsg1{
+    position: relative;
+    top: -845px;
+    left: 750px;
+    font-size: 10px;
+    font-family: "Space Grotesk";
+    color:hsl(0, 100%, 66%);
+    opacity: 0;
+    border-color: hsl(0, 100%, 66%);
+}
+#emsg2{
+    position: relative;
+    top: -808px;
+    left: 750px;
+    font-size: 10px;
+    font-family: "Space Grotesk";
+    color:hsl(0, 100%, 66%);
+    opacity: 0;
+}
+#emsg3{
+    position: relative;
+    top: -770px;
+    left: 750px;
+    font-size: 10px;
+    font-family: "Space Grotesk";
+    color:hsl(0, 100%, 66%);
+    opacity: 0;
+    
+}
+#emsg4{
+    position: relative;
+    top: -838px;
+    left: 915px;
+    font-size: 10px;
+    font-family: "Space Grotesk";
+    color:hsl(0, 100%, 66%);
+    opacity: 0;
+    
+}
+#emsg5{
+    position: relative;
+    top: -783.5px;
+    left: 830px;
+    font-size: 10px;
+    font-family: "Space Grotesk";
+    color:hsl(0, 100%, 66%);
+    opacity: 0;
+}
+#result{
+    height: 30px;
+    width: 120px;
+    color: white;
+    position: absolute;
+    top: 255px;
+    left: 170px;
+    font-family: "Space Grotesk";
+    font-size: 23px;
+    letter-spacing: 4.6px;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+#result3{
+    position: relative;
+    top: -479px;
+    left:-755px;
+    color: white;
+    font-family:"Space Grotesk";
+    font-size: 12.5px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 1;
+}
+#result4{
+    position: absolute;
+    top: 307px;
+    left:470px;
+    font-family:"Space Grotesk";
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 12.5px;
+    color: white;
+    z-index: 1;
+}
+#result5{
+    position: absolute;
+    top: 307px;
+    left:498px;
+    font-family:"Space Grotesk";
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 12.5px;
+    color: white;
+    z-index: 1;
+}
+#result6{
+    position: relative;
+    top:-527.8px;
+    left:150px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 12.5px;
+    font-family:"Space Grotesk";
+    color: white;
+    z-index: 1;
+
+}
+#dsktp-thnkyu{
+    position:relative;
+    top:-1340px;
+    left:425px;
+    height:802px;
+    width:855px;
+    background-color: white;
+    opacity: 0;
+    
+}
+.chck{
+    position: relative;
+    top:220px;
+    left:450px;
+    height:70px;
+    width:70px;
+    
+}
+.h1thku{
+    position: relative;
+    top:245px;
+    left:385px;
+    font-family: "Space Grotesk";
+    font-size:25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.pthnku{
+    position: relative;
+    top:260px;
+    left:355px;
+    font-family: "Space Grotesk";
+    font-size:17px;
+    color:hsl(260, 2%, 71%);
+}
+#cntnu-btn{
+    position: relative;
+    top:300px;
+    left:310px;
+    height:46px;
+    width:340px;
+    background-color: hsl(278, 68%, 11%);
+    color:white;
+    border-radius:10px;
+    font-family:"Space Grotesk";
+    font-size: 15px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:420px){
+    html,body{
+        margin:0;
+        padding:0;
+        overflow-x: hidden;
+        
+    }
+    
+    .purple{
+        position: relative;
+        top: 0vw;
+        left:0vw;
+        height: 70vw;
+        width: 100vw;
+    }
+    .card-bck{
+        height:45vw;
+        width:75vw;
+        position: relative;
+        top:-107.5vw;
+        left:20vw;
+    }
+    .card-frnt{
+        height:45vw;
+        width:75vw;
+        position: relative;
+        top:-36vw;
+        left:6vw;
+        z-index: 2;
+    }
+    .svg{
+        position: relative;
+        top: -65vw;
+        left: -65vw;
+        height: 10vw;
+        width:17.9vw;
+        /*background-color:blue;*/
+        z-index: 2;
+    }
+    #result{
+        position: absolute;
+        top:58vw;
+        left:10vw;
+        z-index: 2;
+        letter-spacing: 1px;
+    }
+    #result3{
+        position: absolute;
+        top:71vw;
+        left:13vw;
+        z-index: 2;
+    }
+    #result4{
+        position: absolute;
+        top:71vw;
+        left:65vw;
+        z-index: 2;
+    }
+    #result5{
+        position: absolute;
+        top:71vw;
+        left:71.9vw;
+        z-index: 2;
+    }
+    #result6{
+        position: absolute;
+        top:29.5vw;
+        left:79vw;
+        z-index: 2;
+    }
+    .pname{
+        position: relative;
+        top: -69vw;
+        left:9vw;
+
+    }
+    #ch-name{
+        position: relative;
+        top: -67vw;
+        left: 9vw;
+        height:11.4vw;
+        z-index: 2;
+    }
+    .pcnumber{
+        position: relative;
+        top: -65vw;
+        left: 9vw;
+    }
+    #crd-num{
+        position: relative;
+        top:-63vw;
+        left: 9vw;
+        height:11.4vw;
+        z-index: 2;
+    }
+    .pcnumber2{
+        position: relative;
+        top:-60vw;
+        left: 9vw;
+    }
+    #month{
+        position: relative;
+        top:-58vw;
+        left: 9vw;
+        height:11.4vw;
+        z-index: 2;
+    }
+    #year{
+        position: relative;
+        top:-58vw;
+        left: 9.5vw;
+        height:11.4vw;
+        z-index: 2;
+    }
+    .cvctxt{
+        position: relative;
+        top:-79vw;
+        left: 49vw;
+    }
+    #cvc{
+        position: relative;
+        top:-77vw;
+        left: 48.4vw;
+        height:11.4vw;
+        z-index: 2;
+    }
+    #btn{
+        position: relative;
+        top:-73vw;
+        left: 9vw;
+        height:11.4vw;
+        font-family: "Space Grotesk";
+        z-index: 2;
+    }
+    #dsktp-thnkyu{
+        position: relative;
+        top: -180vw;
+        left: 0vw;
+        opacity: 0;
+        z-index: 1;
+        height:180vw;
+        width:100vw;
+        background-color: white;
+    }
+    .chck{
+        position: relative;
+        top:25vw;
+        left: 40vw;
+        height:22vw;
+        width:22vw;
+    }
+    .h1thku{
+        position: relative;
+        top:35vw;
+        left: 21vw;
+        font-size: 8vw;
+    }
+    .pthnku{
+        position: relative;
+        top:38vw;
+        left: 10vw;
+        font-size: 5.6vw;
+    }
+    #cntnu-btn{
+        position: relative;
+        top:49vw;
+        left: 10vw;
+    }
+    #emsg1{
+        position: relative;
+        top: -66vw;
+        left: 10vw;
+    }
+    #emsg2{
+        position: relative;
+        top: -62vw;
+        left: 10vw;
+    }
+    #emsg3{
+        position: relative;
+        top: -57vw;
+        left: 10vw;
+    }
+    #emsg4{
+        position: relative;
+        top: -76vw;
+        left: 50vw;
+    }   
+}

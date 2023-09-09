@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Interactive card details form main</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="script.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&display=swap');
+    </style>
+</head>
+<body>
+<div class="dsktp-view">
+    <img class="purple" alt="" src="images/bg-main-desktop.png">
+    <img class="card-frnt" alt="" src="images/bg-card-front.png">
+    <img class="svg" alt="" src="images/card-logo.svg">
+    <span id="result">1234 5678 9123 0000</span>
+    <span id="result3">Jane Appleseed</span>
+    <span id="result4">00/</span>
+    <span id="result5" >00</span>
+    <img class="card-bck" alt="" src="images/bg-card-back.png">
+    <span id="result6">000</span>
+    
+    <p class="pname">Cardholder Name</p>
+    <label for="ch-name"></label>
+    <input id="ch-name" type="text" placeholder="e.g. Jane Appleseed" onInput="getValue()">
+    <p id="emsg1">Name cannot be empty</p>
+
+    <p id="pcn" class="pcnumber">Card Number</p>
+    <label for="crd-num"></label>
+    <input id="crd-num" type="text" maxlength="19" placeholder="e.g. 1234 5678 9123 0000" onInput="getValue()">
+    <p id="emsg2">Wrong format, numbers only</p>
+
+    <p class="pcnumber2">EXP. Date (MM/YY)</p>
+    <label for="month"></label>
+    <input id="month" type="number" maxlength="02" placeholder="MM" onInput="getValue()">
+    <label for="year"></label>
+    <input id="year" type="number" maxlength="02" placeholder="YY" onInput="getValue()">
+    <p id="emsg3">Can't be blank</p>
+    
+
+    <p class="cvctxt">CVC</p>
+    <label for="cvc"></label>
+    <input id="cvc" type="number" maxlength="03" placeholder="e.g. 123" onInput="getValue()">
+    <p id="emsg4">Can't be blank</p>
+
+    <button id="btn">Confirm</button>
+
+    <div id="dsktp-thnkyu">
+        <img class="chck" src="images/icon-complete.svg">
+        <h1 class="h1thku">Thank You!</h1>
+        <p class="pthnku">We've added your card details</p>
+        <button id="cntnu-btn">Continue</button>
+    </div>
+</div>
+</body>
+</html>
